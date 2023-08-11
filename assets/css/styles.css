@@ -43,7 +43,7 @@ a {
 /* Header */
 .header {
     font-family: "Public Sans", sans-serif;
-    padding-top: 28px;
+    padding: 28px 0 88px;
 }
 
 .header-top {
@@ -264,4 +264,68 @@ a {
 
 .hero__short {
     margin-top: 77px;
+}
+
+/* === Brand === */
+.brand {
+    margin-top: 42px;
+}
+
+.brand__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 77px 0;
+    border-radius: 100.5px;
+    background: var(--scondery-color-light-green, #e2eddf);
+}
+
+.brand__group {
+    display: flex;
+    align-items: center;
+}
+
+.brand__text {
+    color: var(--primary-color-black-green, #143c3c);
+}
+
+.brand__text__gg {
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.brand__text__slack {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.brand__group__agworld {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.brand__text__agd {
+    color: #163c35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.brand__text__rto {
+    font-family: Sonsie One;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.brand__group__hku {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand__text__hku {
+    font-family: Poppins;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
 }
